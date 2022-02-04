@@ -1,4 +1,5 @@
 /* Cтили, заданные по умолчанию */
+/*Выбраны не совсем корректные точки для media запросов, обычно используются 1024px, 768px, 320px. Лучше единожды указать конкретный media запрос, затем определить для него все стили, нежели указывать один общий media запрос для каждого элемента отдельно*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -26,6 +27,7 @@ body {
 a {
   display: block;
   text-decoration: none;
+  /*Шрифт уже указан в стилях для html, body*/
   font-family: "Avenir";
   font-weight: 500;
   color: #4b5d68;
@@ -342,6 +344,7 @@ button:active {
   padding: 1rem 2.31rem;
   border-radius: 50px;
   background-color: #9c69e2;
+  /*Шрифт уже указан в стилях для html, body*/
   font-family: "Avenir";
   font-size: 1.125rem;
   font-weight: 900;
@@ -915,11 +918,13 @@ button:active {
 
 .footer__link {
   width: fit-content;
+  /*Лучше объявить отдельный класс, затем один раз указать необходимый шрифт*/
   font-family: "AvenirBook";
   color: #212353;
 }
 
 .footer__copyright {
+  /*Лучше объявить отдельный класс, затем один раз указать необходимый шрифт*/
   font-family: "AvenirBook";
 }
 
