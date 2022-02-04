@@ -51,9 +51,13 @@
         <nav class="header__nav">
           <a href="index.html" class="logo header__logo"></a>
           <div class="row nav__links">
-            <a href="#about" class="link nav__link link--active link--underline">About</a>
+            <a href="#about" class="link nav__link link--active link--underline"
+              >About</a
+            >
             <a href="#footer" class="link nav__link link--underline">Help</a>
-            <a href="#features" class="link nav__link link--underline">Features</a>
+            <a href="#features" class="link nav__link link--underline"
+              >Features</a
+            >
           </div>
           <button class="hamburger"></button>
         </nav>
@@ -135,9 +139,9 @@
                   </div>
                   <a href="#!" class="row row--align-center">
                     <p class="link item__link link--active">Learn more</p>
-                    <svg width="20" height="14" class="item__arrow">
-                      <use href="./img/svg/svg-sprite.svg#arrow"></use>
-                    </svg>
+                    <div class="img-wrapper img-wrapper__item-arrow">
+                      <img src="./img/svg/arrow-violet.svg" alt="arrow" />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -158,9 +162,9 @@
                   </div>
                   <a href="#!" class="row row--align-center">
                     <p class="link item__link link--active">Learn more</p>
-                    <svg width="20" height="14" class="item__arrow">
-                      <use href="./img/svg/svg-sprite.svg#arrow"></use>
-                    </svg>
+                    <div class="img-wrapper img-wrapper__item-arrow">
+                      <img src="./img/svg/arrow-violet.svg" alt="arrow" />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -182,9 +186,9 @@
                   </div>
                   <a href="#!" class="row row--align-center">
                     <p class="link item__link link--active">Learn more</p>
-                    <svg width="20" height="14" class="item__arrow">
-                      <use href="./img/svg/svg-sprite.svg#arrow"></use>
-                    </svg>
+                    <div class="img-wrapper img-wrapper__item-arrow">
+                      <img src="./img/svg/arrow-violet.svg" alt="arrow" />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -206,9 +210,9 @@
                   </div>
                   <a href="#!" class="row row--align-center">
                     <p class="link item__link link--active">Learn more</p>
-                    <svg width="20" height="14" class="item__arrow">
-                      <use href="./img/svg/svg-sprite.svg#arrow"></use>
-                    </svg>
+                    <div class="img-wrapper img-wrapper__item-arrow">
+                      <img src="./img/svg/arrow-violet.svg" alt="arrow" />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -293,18 +297,12 @@
                 </div>
 
                 <div class="row">
-                  <button class="button button__arrow button__arrow--prev">
-                    <svg
-                      height="14"
-                      class="slider__arrow slider__arrow--active"
-                    >
-                      <use href="./img/svg/svg-sprite.svg#arrowActive"></use>
-                    </svg>
-                  </button>
+                  <button
+                    class="button button__arrow button__arrow--prev button__arrow--active"
+                  ><img src="./img/svg/arrow-white-large.svg" alt="arrow-prev">
+                </button>
                   <button class="button button__arrow">
-                    <svg height="14" class="slider__arrow">
-                      <use href="./img/svg/svg-sprite.svg#arrow"></use>
-                    </svg>
+                    <img src="./img/svg/arrow-transparent.svg" alt="arrow-next">
                   </button>
                 </div>
               </div>
@@ -328,8 +326,10 @@
               <p>Warehouse Society, 234</p>
               <p>Bahagia Ave Street PRBW 29281</p>
             </div>
-            <div class="footer__text">
-              <a href="mailto:info@warehouse.project" class="link footer__link link--underline"
+            <div class="footer__text font-family-avenirbook">
+              <a
+                href="mailto:info@warehouse.project"
+                class="link footer__link link--underline"
                 >info@warehouse.project</a
               >
               <a href="tel:12323434" class="link footer__link link--underline"
@@ -348,7 +348,7 @@
             </div>
           </div>
         </div>
-        <div class="footer__copyright">
+        <div class="footer__copyright font-family-avenirbook">
           <p class="text footer__copyrigh-text">
             &#169; Datawarehouse&#8482;, 2020. All rights reserved.
           </p>

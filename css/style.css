@@ -26,8 +26,6 @@ body {
 a {
   display: block;
   text-decoration: none;
-  font-family: "Avenir";
-  font-weight: 500;
   color: #4b5d68;
   font-size: 1rem;
 }
@@ -213,6 +211,10 @@ button:active {
 
 .rel {
   position: relative;
+}
+
+.font-family-avenirbook {
+  font-family: "AvenirBook";
 }
 
 /* header */
@@ -638,8 +640,8 @@ button:active {
   margin-right: 20px;
 }
 
-.item__arrow {
-  stroke: #9c69e2;
+.img-wrapper__item-arrow {
+  width: 20px;
 }
 
 .item__img-wrapper {
@@ -833,17 +835,16 @@ button:active {
 .button__arrow {
   display: block;
   padding: 0;
-  border-radius: unset;
-  background-color: transparent;
+  width: 20px;
 }
 
 .button__arrow--prev {
   margin-right: 20px;
+  transform: rotate(180deg);
 }
 
-.slider__arrow--active {
+.button__arrow--active {
   width: 40px;
-  stroke: #fff;
 }
 
 /* //Slider */
@@ -915,12 +916,7 @@ button:active {
 
 .footer__link {
   width: fit-content;
-  font-family: "AvenirBook";
   color: #212353;
-}
-
-.footer__copyright {
-  font-family: "AvenirBook";
 }
 
 .footer__copyrigh-text {
